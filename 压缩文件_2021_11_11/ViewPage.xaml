@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="NegativeScreen.ViewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NegativeScreen"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource AcrylicBackgroundFillColorDefaultBrush}">
+
+    <StackPanel x:Name="mainView" Margin="32" Orientation="Vertical" Spacing="20">
+        <TextBlock x:Name="tbTime" Text="17:17" HorizontalAlignment="Center" FontSize="23"/>
+        <AutoSuggestBox x:Name="tbSearch" PlaceholderText="搜索" QueryIcon="Find"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <CalendarView CornerRadius="10" RenderTransformOrigin="0.5,0.5">
+                <CalendarView.RenderTransform>
+                    <CompositeTransform ScaleX="1.0" ScaleY="1.0"/>
+                </CalendarView.RenderTransform>
+            </CalendarView>
+            <DatePicker Grid.Column="1"/>
+        </Grid>
+        <muxc:Expander ExpandDirection="Down" IsExpanded="True" Header="Test" Width="500">
+            
+        </muxc:Expander>
+        <Button Content="添加小组件" HorizontalAlignment="Center"
+                Click="Button_Click"/>
+    </StackPanel>
+</Page>

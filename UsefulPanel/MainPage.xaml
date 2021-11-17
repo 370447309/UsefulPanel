@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="UsefulPanel.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UsefulPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True"
+    mc:Ignorable="d"
+    Background="{ThemeResource AcrylicBackgroundFillColorDefaultBrush}">
+
+    <StackPanel Orientation="Vertical" Margin="32" Spacing="20" Background="Transparent">
+        <TextBlock x:Name="tbTime" Text="12:00" FontSize="23" HorizontalAlignment="Center"/>
+        <AutoSuggestBox x:Name="tbSearch" PlaceholderText="搜索" QueryIcon="Find"/>
+
+    </StackPanel>
+</Page>

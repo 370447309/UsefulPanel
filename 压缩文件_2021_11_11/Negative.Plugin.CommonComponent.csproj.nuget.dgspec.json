@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project\\C#\\NegativeScreen\\Negative.Plugin\\Negative.Plugin.CommonComponent\\Negative.Plugin.CommonComponent.csproj": {}
+  },
+  "projects": {
+    "D:\\Project\\C#\\NegativeScreen\\Negative.Common\\Negative.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\C#\\NegativeScreen\\Negative.Common\\Negative.Common.csproj",
+        "projectName": "Negative.Common",
+        "projectPath": "D:\\Project\\C#\\NegativeScreen\\Negative.Common\\Negative.Common.csproj",
+        "packagesPath": "C:\\Users\\LOL ME\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\NegativeScreen\\Negative.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LOL ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.18362"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.18362": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.18362": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Project\\C#\\NegativeScreen\\Negative.Plugin\\Negative.Plugin.CommonComponent\\Negative.Plugin.CommonComponent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\C#\\NegativeScreen\\Negative.Plugin\\Negative.Plugin.CommonComponent\\Negative.Plugin.CommonComponent.csproj",
+        "projectName": "Negative.Plugin.CommonComponent",
+        "projectPath": "D:\\Project\\C#\\NegativeScreen\\Negative.Plugin\\Negative.Plugin.CommonComponent\\Negative.Plugin.CommonComponent.csproj",
+        "packagesPath": "C:\\Users\\LOL ME\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\C#\\NegativeScreen\\Negative.Plugin\\Negative.Plugin.CommonComponent\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LOL ME\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.18362"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.18362": {
+            "projectReferences": {
+              "D:\\Project\\C#\\NegativeScreen\\Negative.Common\\Negative.Common.csproj": {
+                "projectPath": "D:\\Project\\C#\\NegativeScreen\\Negative.Common\\Negative.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.18362": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

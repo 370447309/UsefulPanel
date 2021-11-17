@@ -1,0 +1,2 @@
+D:\Project\C#\NegativeScreen\Negative.Common\Negative.Common.csproj;x64
+D:\Project\C#\NegativeScreen\NegativeScreen\NegativeScreen.csproj;x64
